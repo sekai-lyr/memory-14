@@ -1,45 +1,38 @@
 HELP.md
 target/
-*.class
-*.jar
-!.mvn/wrapper/maven-wrapper.jar
 .mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-### IDE ###
-.idea/
-*.iml
-*.iws
-.ipr
-.vscode/
-.settings/
-.project
+### STS ###
+.apt_generated
 .classpath
 .factorypath
+.project
+.settings
 .springBeans
 .sts4-cache
 
-### OS ###
-.DS_Store
-Thumbs.db
-desktop.ini
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-### Secrets ###
-.env
-.env.local
-*.pem
-application-local.properties
-application-local.yml
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### Runtime data ###
-data/*.db
-data/*.mv.db
-data/*.trace.db
-*.sqlite
-logs/
-*.log
+### VS Code ###
+.vscode/
 
-### Local runtime dirs ###
+### Local anime recognition runtime ###
 .venv-clip/
 data/clip-model/
 data/anime-index/
-uploads/
